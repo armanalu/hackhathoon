@@ -1,0 +1,149 @@
+nav
+{
+    background-color: #111111;
+    height:850px;
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+    position: fixed;
+    top:0px;
+    margin:0px;
+    float:left;
+   
+  
+
+}
+
+body
+{
+    margin: 0px;
+}
+span
+{
+    color:#646464;
+    /*position: relative;*/
+    top: 5px;
+    font-size: 30px;
+ 
+    top:25px;
+    
+}
+
+section
+{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+nav:hover .home
+{
+   color: #89581d;
+}
+
+nav:hover .video
+{
+   color: #712235;
+}
+
+nav:hover .book
+{
+   color: #832720;
+}
+
+nav:hover .image
+{
+   color:#733380;
+}
+nav:hover .inter
+{
+   color:#27552c;
+}
+
+nav:hover .wp
+{
+   color: #668d39;
+}
+
+nav:hover .envo
+{
+   color:#49632b
+}
+
+nav:hover .gavel
+{
+   color: #bbb263;
+}
+
+nav:hover .th
+{
+   color: #3c4b53;
+}
+
+nav:hover .bag
+{
+   color:#a06521;
+}
+
+em
+{
+    color:transparent;
+    font-style: robboto;
+    font-size: 10px;
+    position: relative;
+    top:20px;
+    right: 0px;
+     text-align: justify;
+}
+
+.ab
+{
+    
+    color:transparent;
+    font-style: robboto;
+    font-size: 10px;
+    position: relative;
+    top:20px;
+    right: 7px;
+     text-align: justify;
+}
+
+.ac
+{
+     
+    color:transparent;
+    font-style: robboto;
+    font-size: 10px;
+    position: relative;
+    top:20px;
+    right: 8px;
+     text-align: justify; 
+}
+
+
+.acd
+{
+     
+    color:transparent;
+    font-style: robboto;
+    font-size: 10px;
+    position: relative;
+    top:20px;
+    right: 10px;
+     text-align: justify; 
+}
+
+nav:hover em
+{
+    color:white;
+    cursor: pointer;
+
+}
+
+p
+{
+   margin:0px 100px 0px 100px;
+}
+
+
+

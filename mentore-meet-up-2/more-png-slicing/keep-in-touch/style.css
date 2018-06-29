@@ -1,0 +1,157 @@
+ article
+{
+	background-image: url('images.jpg');
+	height: 300px;
+	width: 500px;
+
+	text-align: center;
+}
+
+h2
+{
+	color: #c03624;
+	padding: 20px;
+	font-weight: bold;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon
+{
+	background-color:none;
+	height:40px;
+	width:310px;
+	margin-left:170px;
+	margin-top:-25px;
+	padding: 0px;
+}
+
+.icon >div
+{
+	background-color:none;
+	height:40px;
+	width:30px;
+	float: left;
+}
+
+.icon >ul {
+	color:white;
+	padding: 0PX;
+	margin-left:0px;
+	font-size: 15px;
+	
+}
+
+.icon2
+{
+	margin-top: 10px;
+	background-color:none;
+	height:40px;
+	width:310px;
+	margin-left:170px;
+	margin-top:10px;
+	padding: 0px;
+}
+
+
+.icon2 >div
+{
+	background-color:none;
+	height:40px;
+	width:30px;
+	float: left;
+
+	margin: 0px;
+}
+
+.icon3
+{
+	margin-top: 10px;
+	background-color: none;
+	height:40px;
+	width:310px;
+	margin-left:170px;
+	margin-top:20px;
+	padding: 0px;
+}
+
+.icon3 >div
+{
+	background-color:none;
+	height:40px;
+	width:30px;
+	float: left;
+
+	margin: 0px;
+}
+
+section
+{
+	margin-left:50px;
+	padding:5px 10px;
+}
+
+section >i
+{
+	color:white;
+	margin-top:5px;
+	border:1px solid white;
+	height:15px;
+	width: 15px;
+    margin:0px;
+	padding:9px;
+	border-radius:30px;
+}
+
+section >span >i
+{
+		color:white;
+	margin-top:5px;
+	border:1px solid white;
+	height:15px;
+	width: 15px;
+	margin:0px;
+	margin-top:10px;
+	padding:9px;
+	border-radius:30px;
+
+}
+
+section:hover
+{
+	transition:all 2s;
+}
+
+section >i:hover
+{
+	cursor: pointer;
+	background-color: #3b5998;
+	transition:all 2s;
+}
+
+
+section >span >i:hover
+{
+	cursor: pointer;
+	background-color:#3daced;
+	transition:all 1s;
+}
+
+.fab fa-linkedin-in:hover
+{
+	cursor: pointer;
+	background-color:#507ea2;
+	transition:all 2s;
+}
+
+.fab fa-instagram:hover
+{
+	cursor: pointer;
+	background-color:#4f7ea4;
+	transition:all 2s;
+}
+
+.fab fa-youtube:hover
+{
+	cursor: pointer;
+	background-color:#b33221;
+	transition:all 2s;
+}

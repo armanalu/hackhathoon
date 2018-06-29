@@ -1,0 +1,103 @@
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height:700px;
+    opacity:0.5
+  }
+
+  img:hover {
+      opacity:1.0;
+      transition:all 2s;
+  }
+  
+  .text {
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 48px;
+     text-shadow: 4px 4px 4px #aaa;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform:translate(-50%,-50%);
+    text-align:center;
+  }
+
+  .dropbtn
+  {
+      height:70px;
+      width:200px;
+      position: absolute;
+      top:35%;
+      left:16%;
+      background-color:grey;
+      color:white;
+      opacity:0.5;
+      border:none;
+      border-radius:5px;
+      float: left;
+      
+  }
+
+  .text:hover{
+    color:black;
+    text-shadow: 4px 4px 4px white;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover
+  {
+  opacity: 0.2;
+  color:black;
+  font-size:15px;      
+  background-color:steelblue;                                            ;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  animation-fill-mode: both;
+  }
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:45%;
+
+    left:16%;
+    width:200px;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px orange;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: paleturquoise;
+    /* padding: 12px 16px; */
+    padding:0px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover 
+{
+    background-color:grey;
+    transition:all 2s;
+}
+
+.dropdown1:hover .dropdown-content
+ {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+
+    background-color: steelblue;
+}

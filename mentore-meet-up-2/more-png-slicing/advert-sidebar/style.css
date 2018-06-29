@@ -1,0 +1,41 @@
+body
+{
+	display: inline-block;
+}
+.container
+{
+	height: 300PX;
+	width: 350PX;
+	background-color: #fefcda;
+	padding: 5px 10px;
+}
+hr
+{
+	margin-top: -10px;
+	color: #a2a08e;
+
+}
+
+p
+{
+	color: #a2a08e;
+	font-weight: bold;
+	font-family: arial;
+}
+
+ul
+{
+  color: #1972d1;
+}
+
+i,num
+{
+	float: left;
+
+	color: #a2a08e;
+}
+
+#ab
+{
+	margin-top: 10px;
+}
